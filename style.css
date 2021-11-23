@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    border:2px solid blue;
+    background-color: rgb(47, 158, 161);
+    border-radius:39% 61% 65% 35% / 0% 100% 0% 100%;
+}
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: 120px;
+}
+
+.absolute{
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
+
+.fixed{
+    position: fixed;
+    left: 400px;
+    bottom: 500px;
+}
+
+.sticky{
+    position: sticky;
+    width: 100%;
+    bottom: 500px;
+    left: 400px;
+}
